@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boggula Chandra Sainadh Reddy | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2f4f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0077b6, #00b4d8);
+      color: white;
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #023e8a;
+      text-align: center;
+      padding: 12px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd60a;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #023e8a;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .project {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-left: 5px solid #0077b6;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 0.95rem;
+      }
+
+      section h2 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="C:\Users\VAMSI BOGGULA\Desktop\CHANDU\Portfolio\PIC.jpg" alt="Chandra Sainadh Reddy" class="profile-pic" />
+  <h1>Boggula Chandra Sainadh Reddy</h1>
+  <p>Computer Science Engineer | Web Developer  Problem Solver | Tech Explorer</p>
+</header>
+
+<nav>
+  <a href="Portifolio.html">🙋 About</a>
+  <a href="resume.html">📄 Resume</a>
+  <a href="contact.html">📞 Contact</a>
+</nav>
+
+<nav>
+<a href="#about">🙋 About</a>
+  <a href="#education">🎓 Education</a>
+  <a href="#projects">🛠 Projects</a>
+  <a href="#skills">💡 Skills</a>
+  <a href="#certifications">📜 Certifications</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a motivated B.Tech Computer Science and Engineering student at Saveetha School of Engineering with a current GPA of 8.2. I specialize in programming with Java, C++, and SQL, and have a solid foundation in web development technologies including HTML, CSS, JavaScript, and PHP.
+  </p>
+  <p>
+    I have worked on machine learning-based academic projects like the "Comprehensive Analysis of Rice Grains," and I’ve also built a personal portfolio website using front-end technologies. I'm passionate about solving problems, building software, and contributing to real-world applications through innovation and teamwork.
+  </p>
+  <p>
+    Beyond academics, I’m deeply interested in exploring new technologies, playing games, photography, and agriculture farming. I believe in continuous learning and look forward to working in dynamic environments that foster creativity and growth.
+  </p>
+</section>
+
+
+<section id="education">
+  <h2>Education</h2>
+
+  <div class="project">
+    <h3>Bachelor of Technology (B.Tech) - Computer Science and Engineering</h3>
+    <p><strong>Institution:</strong> Saveetha Institute of Medical and Technical Sciences, Chennai</p>
+    <p><strong>Year:</strong> 2022 – 2026 (Expected)</p>
+    <p><strong>CGPA:</strong> 8.3 (Current)</p>
+  </div>
+
+  <div class="project">
+    <h3>Intermediate (Class XII)</h3>
+    <p><strong>Institution:</strong> Krishnaveni Junior College, Khammam</p>
+    <p><strong>Board:</strong> State Board of Intermediate Education</p>
+    <p><strong>Year:</strong> 2020 – 2022</p>
+    <p><strong>Percentage:</strong> 97.30%</p>
+  </div>
+
+  <div class="project">
+    <h3>Secondary School Certificate (Class X)</h3>
+    <p><strong>Institution:</strong> Triveni School, Khammam</p>
+    <p><strong>Board:</strong> Board of Secondary Education</p>
+    <p><strong>Year:</strong> 2019 – 2020</p>
+    <p><strong>CGPA:</strong> 10.0</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Comprehensive Analysis of Rice Grains</h3>
+    <p>Developed using Machine Learning algorithms to analyze rice grains for classification and quality prediction.</p>
+    <a href="https://github.com/chandrasainadhreddy/Coreproject-1" target="_blank">🔗 GitHub Link</a>
+  </div>
+  <div class="project">
+    <h3>Used Car Price Prediction</h3>
+    <p>Implemented ML models including Bayesian Neural Networks and Gradient Boosting for price prediction.</p>
+    <a href="https://github.com/chandrasainadhreddy/Core-Project-2" target="_blank">🔗 GitHub Link</a>
+  </div>
+  <div class="project">
+    <h3>Labmentix 1-Month Internship</h3>
+    <p>Personal Portfolio Website, Built using HTML, CSS, and JavaScript to showcase personal projects and resume.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Programming Languages:</strong> C, C++, Java, Python</li>
+    <li><strong>Web Development:</strong> HTML, CSS, JavaScript, PHP</li>
+    <li><strong>Database:</strong> SQL</li>
+    <li><strong>Tools:</strong> Microsoft Office, Github, VS Code</li>
+  </ul>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>
+      <a href="https://www.coursera.org/account/accomplishments/verify/HXQ3F9DIIE5F" target="_blank">
+        Create a Small Business Website with Weebly – Coursera (Jan 2025).
+      </a>
+    </li>
+    <li>
+      <a href="https://simpli-web.app.link/e/0VhiuqLDLMb" target="_blank">
+        Introduction to Generative AI – Simplilearn (Sep 2024).
+      </a>
+    </li>
+     <li>
+      <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs09/Course/NPTEL25CS09S64331049604217803.pdf" target="_blank">
+        Business Intelligence & Analytics – NPTEL (Apr 2025).
+      </a>
+    </li>
+    <li> <a href="https://drive.google.com/file/d/1tSqQZKkXumFUpbDNRIo5zwxARFmMIulI/view?usp=drivesdk" target="_blank">
+    Oracle Database SQL Certified Specialist - ORACLE (Jul 2025).  </a> </li>
+  </ul>
+</section>
+ 
+
+<footer>
+  <p>© 2025 Boggula Chandra Sainadh Reddy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
